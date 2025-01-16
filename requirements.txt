@@ -1,0 +1,15 @@
+requests
+django
+djangorestframework
+django-cors-headers
+python-dotenv
+psycopg2-binary
+cloudinary
+moviepy
+
+langchain-text-splitters 
+langchain-community 
+langchain-openai
+langchain-postgres
+langchain-core
+langgraph
