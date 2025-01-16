@@ -542,7 +542,7 @@ class VideoViewSet(viewsets.ModelViewSet):
             # Analyze the stream segment
             print("Analyzing stream segment")
             print("Video URL: ", video.video_url)
-            time.sleep(30)
+            # time.sleep(30)
             analyzer = NvidiaAnalyzer()
             result = analyzer.analyze_video(video.video_url)
             print("Stream Analysis completed")
